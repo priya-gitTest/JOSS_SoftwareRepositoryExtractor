@@ -200,7 +200,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Made with ❤️ and AI assistance**
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/JOSS_SoftwareRepositoryExtractor?style=social)](https://github.com/priya-gitTest/JOSS_SoftwareRepositoryExtractor)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/JOSS_SoftwareRepositoryExtractor?style=social)](https://github.com/priya-gitTest/JOSS_SoftwareRepositoryExtractor)
+[![GitHub stars](https://img.shields.io/github/stars/priya-gitTest/JOSS_SoftwareRepositoryExtractor?style=social)](https://github.com/priya-gitTest/JOSS_SoftwareRepositoryExtractor)
+[![GitHub forks](https://img.shields.io/github/forks/priya-gitTest/JOSS_SoftwareRepositoryExtractor?style=social)](https://github.com/priya-gitTest/JOSS_SoftwareRepositoryExtractor)
 
 </div>
