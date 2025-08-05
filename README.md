@@ -60,7 +60,7 @@
 
 ### 🐙 **GitHub Codespaces** *(Recommended)*
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/priya-gitTest/JOSS_SoftwareRepositoryExtractor)
 
 ```bash
 # 1. Open in Codespaces (click badge above)
@@ -200,7 +200,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Made with ❤️ and AI assistance**
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/JOSS_SoftwareRepositoryExtractor?style=social)](https://github.com/yourusername/JOSS_SoftwareRepositoryExtractor)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/JOSS_SoftwareRepositoryExtractor?style=social)](https://github.com/yourusername/JOSS_SoftwareRepositoryExtractor)
+[![GitHub stars](https://img.shields.io/github/stars/yourusername/JOSS_SoftwareRepositoryExtractor?style=social)](https://github.com/priya-gitTest/JOSS_SoftwareRepositoryExtractor)
+[![GitHub forks](https://img.shields.io/github/forks/yourusername/JOSS_SoftwareRepositoryExtractor?style=social)](https://github.com/priya-gitTest/JOSS_SoftwareRepositoryExtractor)
 
 </div>
