@@ -22,7 +22,7 @@
 <td>
 
 ### ⚡ **Fast & Efficient**
-- Fetches all 3,100+ papers in minutes
+- Fetches all 3,100+ published papers in minutes (2 mins approx)
 - Rate-limited API calls to respect server
 - Progress tracking with real-time updates
 
