@@ -6,47 +6,42 @@ from typing import List, Dict
 import json
 from datetime import datetime
 
+import requests
+import time
+from typing import List, Dict
+
 def fetch_joss_data() -> List[Dict]:
     """Fetch all JOSS papers data from the API"""
     base_url = "https://joss.theoj.org/papers/published.json"
     all_papers = []
     page = 1
-    total_records = 3111  # Based on your information
-    total_pages = (total_records + 19) // 20  # Ceiling division
-    
-    print(f"Starting extraction of {total_records} papers across {total_pages} pages...")
-    
+
+    print("Starting extraction of JOSS papers...")
+
     while True:
-        if page == 1:
-            url = base_url
-        else:
-            url = f"{base_url}?page={page}"
-        
-        print(f"Fetching page {page}/{total_pages}...")
-        
+        url = base_url if page == 1 else f"{base_url}?page={page}"
+        print(f"Fetching page {page}...")
+
         try:
             response = requests.get(url, timeout=30)
             response.raise_for_status()
-            
             data = response.json()
-            
-            if not data:  # Empty response means we've reached the end
+
+            if not data:  # No more data
+                print("No more papers found. Ending extraction.")
                 break
-                
+
             all_papers.extend(data)
-            print(f"  → Retrieved {len(data)} papers (Total: {len(all_papers)})")
-            
-            # Small delay to be respectful to the server
-            time.sleep(0.1)
+            print(f"  → Retrieved {len(data)} papers (Total so far: {len(all_papers)})")
+
+            time.sleep(0.1)  # Respectful delay
             page += 1
-            
+
         except requests.exceptions.RequestException as e:
             print(f"Error fetching page {page}: {e}")
-            if page > total_pages:
-                break
-            page += 1
-            continue
-    
+            break  # Stop on error (optional: you could retry instead)
+
+    print(f"Finished. Total papers fetched: {len(all_papers)}")
     return all_papers
 
 def create_csv(papers: List[Dict], filename: str = None):
