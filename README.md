@@ -1,4 +1,4 @@
-# 🚀 JOSS Software Repository Extractor
+# 🚀 JOSS + Helmholtz(RSD) Software Repository Extractor
 
 <div align="center">
 
@@ -22,7 +22,7 @@
 <td>
 
 ### ⚡ **Fast & Efficient**
-- Fetches all 3,100+ published papers in minutes (2 mins approx)
+- Scans all 3,100+ published papers in minutes (2 mins approx)
 - Rate-limited API calls to respect server
 - Progress tracking with real-time updates
 
@@ -67,8 +67,11 @@
 # 2. Install dependencies
 pip install requests
 
-# 3. Run the extractor
+# 3. Run the JOSS extractor
 python joss_extractor.py
+```
+# 4. Run the Helmholtz(RSD) extractor
+python helmholtzRSD_extractor.py
 ```
 
 ### 💻 **Local Installation**
@@ -83,6 +86,7 @@ pip install requests
 
 # Run the script
 python joss_extractor.py
+python helmholtzRSD_extractor.py
 ```
 
 ## 📊 Output
@@ -99,6 +103,7 @@ software_repository
 ### 📁 **File Naming Convention**
 ```
 joss_repositories_YYYYMMDD_HHMMSS.csv
+Helmholtz_software_repositories_YYYYMMDD_HHMMSS.csv
 ```
 
 **Example:** `joss_repositories_20250805_143022.csv`
@@ -108,6 +113,7 @@ joss_repositories_YYYYMMDD_HHMMSS.csv
 ### **Basic Usage**
 ```python
 python joss_extractor.py
+python helmholtzRSD_extractor.py
 ```
 
 ### **Expected Output**
