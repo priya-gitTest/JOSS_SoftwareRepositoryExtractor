@@ -71,7 +71,7 @@ pip install requests
 ```bash
 python joss_extractor.py
 ```
-# 4. Run the JOSS + Helmholtz(RSD) extractor
+# 4. Run the Helmholtz(RSD) extractor
 ```bash
 python helmholtzRSD_extractor.py
 ```
