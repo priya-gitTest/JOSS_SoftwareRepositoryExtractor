@@ -66,11 +66,13 @@
 # 1. Open in Codespaces (click badge above)
 # 2. Install dependencies
 pip install requests
-
+```
 # 3. Run the JOSS extractor
+```bash
 python joss_extractor.py
 ```
-# 4. Run the Helmholtz(RSD) extractor
+# 4. Run the JOSS + Helmholtz(RSD) extractor
+```bash
 python helmholtzRSD_extractor.py
 ```
 
