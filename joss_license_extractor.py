@@ -7,6 +7,7 @@ import time
 # Unauthenticated requests are limited to 60 requests per hour.
 # Create a token here: https://github.com/settings/tokens
 # The token does not need any special permissions for this script.
+# ONLY Works for Github. Need to fix for Not Github repo's too and need to discuss the approach for that in general.
 GITHUB_TOKEN = "" # Paste your token here
 CSV_FILE_PATH = "joss_repositories_20250806_080130.csv"
 OUTPUT_CSV_FILE = "joss_repositories_20250806_080130_licenses.csv"
