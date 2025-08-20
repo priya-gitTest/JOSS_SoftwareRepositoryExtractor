@@ -80,7 +80,7 @@ python helmholtzRSD_extractor.py
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/JOSS_SoftwareRepositoryExtractor.git
+git clone https://github.com/priya-gitTest/JOSS_SoftwareRepositoryExtractor.git
 cd JOSS_SoftwareRepositoryExtractor
 
 # Install dependencies
