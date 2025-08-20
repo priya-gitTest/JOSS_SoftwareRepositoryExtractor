@@ -1,4 +1,4 @@
-# 🚀 JOSS + Helmholtz(RSD) Software Repository Extractor
+# 🚀 JOSS + Helmholtz(RSD) Software Repository Extractor [TODO : Fix for non GITHUB repo's]
 
 <div align="center">
 
