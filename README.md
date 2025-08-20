@@ -1,4 +1,4 @@
-# 🚀 JOSS + Helmholtz(RSD) Software Repository Extractor [TODO : Fix for non GITHUB repo's]
+# 🚀 JOSS + Helmholtz(RSD) Software Repository Extractor 
 
 <div align="center">
 
@@ -191,6 +191,8 @@ This project was generated with the assistance of **Claude AI**. Contributions a
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
+6. [TODO : Fix  Licence extraction logic for non GITHUB repo's]
 
 ## 📄 License
 
